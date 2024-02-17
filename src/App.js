@@ -16,7 +16,7 @@ function App() {
         <div className="App">
             <Header />
             <img src="/image/iptip.png" alt="Моя фотография" />
-            
+            <button onClick = {onToggleButton}>toggle</button>
             <button onClick = {onToggleButton}>toggle</button>
       </div>
     );
