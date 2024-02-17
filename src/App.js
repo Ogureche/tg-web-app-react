@@ -15,6 +15,8 @@ function App() {
     return (
         <div className="App">
             <Header />
+            <img src="/image/iptip.png" alt="Моя фотография" />
+            
             <button onClick = {onToggleButton}>toggle</button>
       </div>
     );
