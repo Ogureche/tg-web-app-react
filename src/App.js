@@ -3,7 +3,7 @@ import {useEffect} from "react";
 import {useTelegram} from "./hooks/useTelegram";
 import Header from "./components/Header/Header";
 
-//privet
+//privet пока
 function App() {
 
     const {onToggleButton, tg} = useTelegram();
