@@ -5,6 +5,9 @@ import "./PageI.css";
 const PageI = ({ showButtons }) => {
   return (
     <div>
+      <div className="a1">
+        <img src="./image/iptip.svg" className="a2"/>
+      </div>
       <h1>Страница 1</h1>
       {/* Содержимое первой страницы */}
       
