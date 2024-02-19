@@ -15,7 +15,7 @@ div {
   button {
     margin: 5px;
     padding: 10px;
-    background-color: #ffff00;
+    background-color: #FAD666;
     color: white;
     border: none;
     text-align: center;
@@ -27,7 +27,7 @@ div {
   }
   
   button:hover {
-    background-color: #ffff00;
+    background-color: #FAD666;
   }
   .a2{ 
     width: 100%; 
