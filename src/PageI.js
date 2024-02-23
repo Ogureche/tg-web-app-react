@@ -5,6 +5,9 @@ import "./PageI.css";
 const PageI = ({ showButtons }) => { 
   return ( 
     <div> 
+      <div className="a0">
+        <h1>das</h1>
+      </div>
       <div className="a1"> 
         <img src="./image/iptip.svg" className="a2"/> 
       </div> 

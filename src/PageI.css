@@ -29,6 +29,12 @@ div {
   button:hover {
     background-color: #FAD666;
   }
+  .a0{
+    height: 45px;
+    width: 100%;
+    background-color: #313131;
+  }
   .a2{ 
     width: 100%; 
   }
+  
