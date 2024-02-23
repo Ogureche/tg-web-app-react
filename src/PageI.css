@@ -3,7 +3,7 @@
 /* Styles for the main container */
 div {
     text-align: center;
-    margin: 20px;
+    margin: 0px;
   }
   
   /* Styles for the heading */
@@ -30,5 +30,5 @@ div {
     background-color: #FAD666;
   }
   .a2{ 
-    width: 1000px; 
+    width: 150%; 
   }
