@@ -13,14 +13,22 @@ const PageI = ({ showButtons }) => {
       </div> 
       <section className="b">
         <div className="b1">
-          <div className="b2">
+          <div className="b1-1">
             <p>Преподаватели </p>
           </div>
-          <div className="b3">
+          <div className="b1-2">
             <p>Программа обучения</p>
-          </div>
-
+          </div>        
         </div>
+        <div className="b2">
+          <div className="b2-1">
+            <p>Хакатоны </p>
+          </div>
+          <div className="b2-2">
+            <p>Киберспорт</p>
+        </div> 
+
+          </div>
       </section>
       <h1>Страница 1</h1> 
       {/* Содержимое первой страницы */} 
