@@ -17,7 +17,7 @@ const PageI = ({ showButtons }) => {
             <p>Преподаватели </p>
           </div>
           <div className="b3">
-            <p>Программа обучени</p>
+            <p>Программа обучения</p>
           </div>
 
         </div>
