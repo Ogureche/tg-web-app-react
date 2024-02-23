@@ -68,7 +68,8 @@ div {
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    align-items: center;     
+    align-items: center;
+    border-radius: 15px;      
     
 
   }
@@ -83,7 +84,8 @@ div {
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    align-items: center;  
+    align-items: center;
+    border-radius: 15px;   
   }
   .b2{
     height: 100px;
@@ -106,7 +108,8 @@ div {
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    align-items: center;  
+    align-items: center;
+    border-radius: 15px;  
 
   }
   .b2-2{
@@ -120,6 +123,7 @@ div {
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    align-items: center;  
+    align-items: center;
+    border-radius: 15px;  
   }
   
