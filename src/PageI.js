@@ -6,11 +6,22 @@ const PageI = ({ showButtons }) => {
   return ( 
     <div> 
       <div className="a0">
-        <p className="a0-1">StudBot | ИПТИП</p>
+        <p className="a0-1">StudBot | ИПТИП</p>     
       </div>
       <div className="a1"> 
         <img src="./image/iptip.svg" className="a2"/> 
       </div> 
+      <section className="b">
+        <div className="b1">
+          <div className="b2">
+            <p>Преподаватели </p>
+          </div>
+          <div className="b3">
+            <p>Программа обучения</p>
+          </div>
+
+        </div>
+      </section>
       <h1>Страница 1</h1> 
       {/* Содержимое первой страницы */} 
        

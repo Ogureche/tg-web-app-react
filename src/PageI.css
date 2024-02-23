@@ -39,10 +39,38 @@ div {
     font-size: 24px;
     padding-top: 10px;
     text-align: left;
-    padding-left: 45px;
+    padding-left: 30px;
 
+  }
+  .a0-2{
+    width: 1000%;
   }
   .a2{ 
     width: 100%; 
+  }
+  .b1{
+    height: 248px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0%;
+    flex-wrap: wrap;
+  }
+  .b2{
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 45%;
+    height: 85px;
+    background-color: #FAD666;
+    color:#ffffff
+  }
+  .b3{
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 45%;
+    height: 85px;
+    background-color: #FAD666;
+    color:#ffffff
   }
   
