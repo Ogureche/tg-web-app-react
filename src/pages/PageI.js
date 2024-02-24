@@ -29,28 +29,19 @@ const PageI = ({ showButtons }) => {
         <button>КиберспортИ</button>
           </Link> 
         </div> 
-
-        <div className="b3">
+        </div>
+        </section>
+      <div className="b3">
           <div className="b3-1">
-          <iframe src="https://vlabs.mirea.ru/mash/" width="200" height="300" rel="noopener noreferrer">
+          <iframe src="https://vlabs.mirea.ru/mash/" width="100%" height="100%" margin-left="0px" padding-left="0" rel="noopener noreferrer">
         </iframe>
           
           </div>
-        </div>
-
           </div>
-      </section>
-      {/* Содержимое первой страницы */} 
-       
-      {/* Условный рендеринг кнопок */} 
-      {showButtons && ( 
-        <> 
-          <Link to="/страница-1"> 
-            <button>Открыть Страницу 1</button> 
-          </Link> 
-        </> 
-      )} 
-    </div> 
+
+          </div>           
+      
+    
   ); 
 }; 
  
