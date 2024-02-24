@@ -32,7 +32,9 @@ const PageI = ({ showButtons }) => {
 
         <div className="b3">
           <div className="b3-1">
-            <p>Лаборатории</p>
+          <Link to="/страница-cyber">
+        <button>Лаборатории</button>
+          </Link> 
           </div>
         </div>
 
