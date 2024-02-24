@@ -49,9 +49,16 @@ body {
   .a1{
     width: 100%;
   }
-  .a2{ 
-    width: 100%; 
-  }
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
   .b1{
     height: 124px;
     background-color: #ffffff;
