@@ -1,6 +1,6 @@
 import React from "react"; 
 import { Link } from "react-router-dom"; 
-import "./PageI.css"; 
+import "../styles/PageI.css"; 
  
 const PageI = ({ showButtons }) => { 
   return ( 

@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link, Route, BrowserRouter as Router, Routes, useLocation, Navigate } from "react-router-dom";
 import { useTelegram } from "./hooks/useTelegram";
 import Header from "./components/Header/Header";
-import PageI from "./PageI"; // Импортируйте новую страницу
-import Page from "./Page"; // Импортируйте новую страницу
+import PageI from "./pages/PageI"; // Импортируйте новую страницу
+import Page from "./pages/Page"; // Импортируйте новую страницу
 
 function App() {
   const { onToggleButton, tg } = useTelegram();
