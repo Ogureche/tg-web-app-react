@@ -1,0 +1,24 @@
+body {
+    display: block;
+    margin: 0;
+  }
+  .main {
+      text-align: center;
+      margin: 0px;
+      width: 100%;
+    }
+    
+    h1 {
+      color: #333;
+    }
+    .c1{
+        height: 65px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        background-color:#FAD666 ;
+        color:#ffffff;
+
+    }
