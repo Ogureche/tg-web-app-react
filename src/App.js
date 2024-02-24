@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import PageI from "./pages/PageI"; // Импортируйте новую страницу
 import Page from "./pages/Page"; // Импортируйте новую страницу
 import PageCyber from "./pages/PageCyber";
+import PageLaby from "./pages/PageLaby";
 
 function App() {
   const { onToggleButton, tg } = useTelegram();
