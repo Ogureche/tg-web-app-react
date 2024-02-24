@@ -14,7 +14,9 @@ const PageI = ({ showButtons }) => {
             <p>Преподаватели </p>
           </div>
           <div className="b1-2">
-            <p>Программа обучения</p>
+          <Link to="/вторая-страница"> 
+            <button>Траектория обучения</button> 
+          </Link>
           </div>        
         </div>
         <div className="b2">
@@ -22,7 +24,9 @@ const PageI = ({ showButtons }) => {
             <p>Хакатоны </p>
           </div>
           <div className="b2-2">
-            <p>Киберспорт</p>
+            <Link to="/страница-cyber">
+        <button>Киберспорт</button>
+          </Link> 
         </div> 
 
           </div>
@@ -37,10 +41,10 @@ const PageI = ({ showButtons }) => {
             <button>Открыть Страницу 1</button> 
           </Link> 
           <Link to="/вторая-страница"> 
-            <button>Открыть Вторую Страницу</button> 
+            <button>Траектория обучения</button> 
           </Link>
           <Link to="/страница-cyber">
-        <button>Открыть Страницу Cyber</button>
+        <button>Киберспорт</button>
           </Link> 
         </> 
       )} 
