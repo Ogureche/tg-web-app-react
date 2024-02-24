@@ -144,4 +144,8 @@ body {
     align-items: center;
     border-radius: 15px;  
   }
+
+  .b3-1{
+    transform: scale(0.2);
+  }
   
