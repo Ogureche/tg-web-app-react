@@ -1,6 +1,7 @@
 import React from "react"; 
 import { Link } from "react-router-dom"; 
 import "../styles/PageI.css"; 
+
  
 const PageI = ({ showButtons }) => { 
   return ( 
@@ -11,7 +12,7 @@ const PageI = ({ showButtons }) => {
       <section className="b">
         <div className="b1">
           <div className="b1-1">
-            <p>Преподаватели </p>
+            <p className="text-button">Преподаватели </p>
           </div>
           <div className="b1-2">
           <Link to="/вторая-страница"> 
