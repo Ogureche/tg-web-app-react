@@ -1,0 +1,85 @@
+body {
+    display: block;
+    margin: 0px;
+  }
+  .main {
+      text-align: center;
+      margin: 0px;
+      width: 100%;
+    }
+    
+    h1 {
+      color: #333;
+    }
+    p {
+        margin: 0; /* Устанавливаем отступы внутри параграфа на ноль */
+        line-height: 1.2; /* Устанавливаем межстрочный интервал для более компактного расположения строк */
+      }
+      
+      span {
+        display: inline-block; /* Устанавливаем блочный тип для span, чтобы можно было управлять отступами */
+        margin-right: 5px; /* Пример отступа между span'ами */
+      }
+    .d1{
+        height: 65px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        background-color:#FAD666 ;
+        color:#ffffff;
+
+    }
+    .d2{
+        height: 170px;
+        padding-top: 5%;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        flex-wrap: wrap;
+        
+    }
+    .d2-A{
+        height: 170px;;
+        padding-top: 5%;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        flex-wrap: wrap;
+        
+    }
+    .d2-1{
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 40%;
+        height: 175px;
+        background-color: #FAD666;
+        color:#ffffff;
+        margin-right: 4%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        border-radius: 15px; 
+    }
+    .d2-2{ 
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 40%;
+        height: 175px;
+        background-color: #FAD666;
+        color:#ffffff;
+        margin-right: 4%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        border-radius: 15px;
+        margin-right: 0%; 
+
+    }
