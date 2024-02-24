@@ -31,6 +31,28 @@ body {
         color:#ffffff;
 
     }
+    .d2{
+        height: 170px;
+        padding-top: 5%;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        flex-wrap: wrap;
+        
+    }
+    .d2-A{
+        height: 170px;;
+        padding-top: 5%;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        flex-wrap: wrap;
+        
+    }
     .d2-1{
         padding-right: 10px;
         padding-left: 10px;
