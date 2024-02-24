@@ -146,6 +146,9 @@ body {
   }
 
   .b3-1{
-    transform: scale(0.2);
+    overflow: auto;
+    transform: scale(0.8);
+    transform-origin: top left;
+    
   }
   
