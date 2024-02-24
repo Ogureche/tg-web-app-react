@@ -38,6 +38,9 @@ const PageI = ({ showButtons }) => {
           </Link> 
           <Link to="/вторая-страница"> 
             <button>Открыть Вторую Страницу</button> 
+          </Link>
+          <Link to="/страница-cyber">
+        <button>Открыть Страницу Cyber</button>
           </Link> 
         </> 
       )} 
