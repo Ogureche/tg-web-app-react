@@ -40,7 +40,7 @@ function App() {
             <button onClick={handleButtonClick}>Открыть Страницу 1</button>
           </Link>
           <Link to="/вторая-страница">
-            <button>Открыть Вторую Страницу</button>
+            <button>Траектория обучения</button>
           </Link>
           <Link to="/страница-cyber">
             <button>Киберспорт</button> {/* Добавлена кнопка для третьей страницы */}

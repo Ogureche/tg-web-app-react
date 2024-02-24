@@ -31,7 +31,6 @@ const PageI = ({ showButtons }) => {
 
           </div>
       </section>
-      <h1>Страница 1</h1> 
       {/* Содержимое первой страницы */} 
        
       {/* Условный рендеринг кнопок */} 
@@ -39,12 +38,6 @@ const PageI = ({ showButtons }) => {
         <> 
           <Link to="/страница-1"> 
             <button>Открыть Страницу 1</button> 
-          </Link> 
-          <Link to="/вторая-страница"> 
-            <button>Траектория обучения</button> 
-          </Link>
-          <Link to="/страница-cyber">
-        <button>Киберспорт</button>
           </Link> 
         </> 
       )} 
