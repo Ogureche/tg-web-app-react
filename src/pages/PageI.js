@@ -30,6 +30,12 @@ const PageI = ({ showButtons }) => {
           </Link> 
         </div> 
 
+        <div className="b3">
+          <div className="b3-1">
+            <p>Лаборатории</p>
+          </div>
+        </div>
+
           </div>
       </section>
       {/* Содержимое первой страницы */} 

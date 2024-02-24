@@ -31,6 +31,7 @@ function App() {
         <Route path="/страница-1" element={<PageI showButtons={showButtons} />} />
         <Route path="/вторая-страница" element={<Page />} />
         <Route path="/страница-cyber" element={<PageCyber />} />
+        <Route path="/страница-VirtualLab" element={<PageLaby />} />
       </Routes>
 
       {/* Кнопки будут отображаться только на странице-1, если showButtons === true */}
@@ -44,6 +45,9 @@ function App() {
           </Link>
           <Link to="/страница-cyber">
             <button>Киберспорт</button> {/* Добавлена кнопка для третьей страницы */}
+          </Link>
+          <Link to="/страница-VirtualLab">
+            <button>Лаборатории</button> {/* Добавлена кнопка для третьей страницы */}
           </Link>
         </>
       )}
