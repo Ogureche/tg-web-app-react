@@ -2,6 +2,10 @@ body {
     display: block;
     margin: 0px;
   }
+  .namegame{
+    font-size: 15px;
+    font-weight: bold;
+  }
   .main {
       text-align: center;
       margin: 0px;
@@ -12,8 +16,10 @@ body {
       color: #333;
     }
     p {
-        margin: 0; /* Устанавливаем отступы внутри параграфа на ноль */
-        line-height: 1.2; /* Устанавливаем межстрочный интервал для более компактного расположения строк */
+        margin: 0; 
+        line-height: 1.2; 
+        font-family: 'Montserrat', sans-serif;
+         font-size: 12px;
       }
       
       span {
@@ -32,7 +38,7 @@ body {
 
     }
     .d2{
-        height: 170px;
+        height: 130px;
         padding-top: 5%;
         background-color: #ffffff;
         display: flex;
@@ -43,7 +49,7 @@ body {
         
     }
     .d2-A{
-        height: 170px;;
+        height: 130px;;
         padding-top: 5%;
         background-color: #ffffff;
         display: flex;
@@ -57,7 +63,7 @@ body {
         padding-right: 10px;
         padding-left: 10px;
         width: 40%;
-        height: 175px;
+        height: 140px;
         background-color: #FAD666;
         color:#ffffff;
         margin-right: 4%;
@@ -71,7 +77,7 @@ body {
         padding-right: 10px;
         padding-left: 10px;
         width: 40%;
-        height: 175px;
+        height: 140px;
         background-color: #FAD666;
         color:#ffffff;
         margin-right: 4%;

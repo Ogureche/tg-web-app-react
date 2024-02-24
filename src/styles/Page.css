@@ -10,6 +10,7 @@ body {
   .main-text {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    font-weight: bold;
   }
   .main {
       text-align: center;

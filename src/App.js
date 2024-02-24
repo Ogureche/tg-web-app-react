@@ -38,9 +38,6 @@ function App() {
       {/* Кнопки будут отображаться только на странице-1, если showButtons === true */}
       {location.pathname === "/страница-1" && showButtons && (
         <>
-          <Link to="/страница-1">
-            <button onClick={handleButtonClick}>Открыть Страницу 1</button>
-          </Link>
           <Link to="/вторая-страница">
             <button>Траектория обучения</button>
           </Link>
