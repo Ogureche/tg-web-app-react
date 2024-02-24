@@ -8,6 +8,16 @@ const Page = () => {
       <div className="c1">
        <p>Траектория обучения </p> 
       </div>
+      <div className="c2">
+        <div className="c2-1">
+          <p>09.03.02 Информационные системы и технологии</p>
+        </div>
+        <div className="c2-2">
+          <p>09.03.02 Фуллстек разработка</p>
+        </div>
+
+      </div>
+
 
     
     <div>
