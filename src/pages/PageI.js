@@ -12,7 +12,7 @@ const PageI = ({ showButtons }) => {
       <section className="b">
         <div className="b1">
           <div className="b1-1">
-          <Link to="/вторая-страница"> 
+          <Link to="/первая-страница"> 
            <button><p className="text-button">Преподаватели </p> </button>
           </Link>
           </div>
@@ -24,7 +24,9 @@ const PageI = ({ showButtons }) => {
         </div>
         <div className="b2">
           <div className="b2-1">
-            <p className="text-button">Хакатоны </p>
+          <Link to="/третья-страница">
+            <button className="text-button">Хакатоны </button>
+            </Link>
           </div>
           <div className="b2-2">
             <Link to="/страница-cyber">

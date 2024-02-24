@@ -33,11 +33,18 @@ function App() {
         <Route path="/вторая-страница" element={<Page />} />
         <Route path="/страница-cyber" element={<PageCyber />} />
         <Route path="/страница-VirtualLab" element={<PageLaby />} />
+        <Route path="/третья-страница" element={<PageLaby />} />
       </Routes>
 
       {/* Кнопки будут отображаться только на странице-1, если showButtons === true */}
       {location.pathname === "/страница-1" && showButtons && (
         <>
+          <Link to="/первая-страница">
+            <button>Траектория обучения</button>
+          </Link>
+          <Link to="/третья-страница">
+            <button>Траектория обучения</button>
+          </Link>
           <Link to="/вторая-страница">
             <button>Траектория обучения</button>
           </Link>
