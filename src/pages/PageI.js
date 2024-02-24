@@ -26,7 +26,7 @@ const PageI = ({ showButtons }) => {
           </div>
           <div className="b2-2">
             <Link to="/страница-cyber">
-        <button>КиберспортИ</button>
+        <button>Киберспорт</button>
           </Link> 
         </div> 
         </div>
