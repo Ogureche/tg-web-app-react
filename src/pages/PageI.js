@@ -32,9 +32,9 @@ const PageI = ({ showButtons }) => {
 
         <div className="b3">
           <div className="b3-1">
-          <a href="https://vlabs.mirea.ru/mash/" target="_blank" rel="noopener noreferrer">
+          <iframe href="https://vlabs.mirea.ru/mash/" target="_blank" rel="noopener noreferrer">
         <button>Лаборатории</button>
-        </a>
+        </iframe>
           
           </div>
         </div>
