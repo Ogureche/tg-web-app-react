@@ -32,9 +32,10 @@ const PageI = ({ showButtons }) => {
 
         <div className="b3">
           <div className="b3-1">
-          <Link to="/страница-VirtualLab">
+          <a href="https://vlabs.mirea.ru/mash/" target="_blank" rel="noopener noreferrer">
         <button>Лаборатории</button>
-          </Link> 
+        </a>
+          
           </div>
         </div>
 
