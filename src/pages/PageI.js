@@ -12,20 +12,24 @@ const PageI = ({ showButtons }) => {
       <section className="b">
         <div className="b1">
           <div className="b1-1">
-            <p className="text-button">Преподаватели </p>
+          <Link to="1 page"> 
+           <button> <p className="text-button">Преподаватели </p> </button>
+          </Link>
           </div>
           <div className="b1-2">
-          <Link to="/вторая-страница"> 
+          <Link to="2 page"> 
             <button className="text-button">Траектория обучения</button> 
           </Link>
           </div>        
         </div>
         <div className="b2">
           <div className="b2-1">
-            <p className="text-button">Хакатоны </p>
+          <Link to="3 page"> 
+            <button className="text-button">Хакатоны </button>
+          </Link>
           </div>
           <div className="b2-2">
-            <Link to="/страница-cyber">
+            <Link to="4 page">
         <button className="text-button">Киберспорт</button>
           </Link> 
         </div> 
