@@ -32,7 +32,7 @@ const PageI = ({ showButtons }) => {
 
         <div className="b3">
           <div className="b3-1">
-          <iframe href="https://vlabs.mirea.ru/mash/" target="_blank" rel="noopener noreferrer">
+          <iframe href="https://vlabs.mirea.ru/mash/" width="100%" height="300" rel="noopener noreferrer">
         <button>Лаборатории</button>
         </iframe>
           
