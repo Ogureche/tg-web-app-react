@@ -1,17 +1,18 @@
-/* PageI.css */
 
-/* Styles for the main container */
-div {
+body {
+  display: block;
+  margin: 0;
+}
+.main {
     text-align: center;
     margin: 0px;
+    width: 100%;
   }
   
-  /* Styles for the heading */
   h1 {
     color: #333;
   }
   
-  /* Styles for the buttons */
   button {
     margin: 5px;
     padding: 10px;
@@ -44,6 +45,9 @@ div {
   }
   .a0-2{
     width: 1000%;
+  }
+  .a1{
+    width: 100%;
   }
   .a2{ 
     width: 100%; 
