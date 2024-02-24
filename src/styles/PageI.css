@@ -144,4 +144,11 @@ body {
     align-items: center;
     border-radius: 15px;  
   }
+
+  .b3-1{
+    overflow: auto;
+    transform: scale(0.8);
+    transform-origin: top left;
+    
+  }
   
