@@ -16,17 +16,17 @@ const PageI = ({ showButtons }) => {
           </div>
           <div className="b1-2">
           <Link to="/вторая-страница"> 
-            <button>Траектория обучения</button> 
+            <button className="text-button">Траектория обучения</button> 
           </Link>
           </div>        
         </div>
         <div className="b2">
           <div className="b2-1">
-            <p>Хакатоны </p>
+            <p className="text-button">Хакатоны </p>
           </div>
           <div className="b2-2">
             <Link to="/страница-cyber">
-        <button>Киберспорт</button>
+        <button className="text-button">Киберспорт</button>
           </Link> 
         </div> 
         </div>
