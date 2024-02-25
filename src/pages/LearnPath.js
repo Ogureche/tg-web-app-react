@@ -1,8 +1,8 @@
-// Page.js
+
 import React from "react";
 import '../styles/Page.css';
 
-const Page = () => {
+const LearnPath = () => {
   return (
     <div className="main">
       <div className="c1">
@@ -88,4 +88,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default LearnPath;

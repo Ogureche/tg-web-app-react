@@ -5,7 +5,7 @@ const PageTeach = () => {
     return (
         <div>
 
-        </div>
+        </div>  
     )
 };
 
