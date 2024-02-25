@@ -4,9 +4,9 @@ import '../styles/PageTeach.css';
 const PageTeach = () => {
     return (
         <div>
-            
+
         </div>
     )
 };
 
-export default Page;
+export default PageTeach;

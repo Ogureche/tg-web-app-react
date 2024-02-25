@@ -6,6 +6,7 @@ import PageI from "./pages/PageI"; // Импортируйте новую стр
 import Page from "./pages/Page"; // Импортируйте новую страницу
 import PageCyber from "./pages/PageCyber";
 import PageLaby from "./pages/PageLaby";
+import PageTeach from "./pages/PageTeach";
 
 function App() {
   const { onToggleButton, tg } = useTelegram();
@@ -34,6 +35,7 @@ function App() {
         <Route path="/страница-cyber" element={<PageCyber />} />
         <Route path="/страница-VirtualLab" element={<PageLaby />} />
         <Route path="/третья-страница" element={<PageLaby />} />
+        <Route path="/первая-страница" element={<PageTeach />} />
       </Routes>
 
       {/* Кнопки будут отображаться только на странице-1, если showButtons === true */}
