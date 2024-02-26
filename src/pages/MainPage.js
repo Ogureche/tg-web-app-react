@@ -37,7 +37,7 @@ const MainPage = ({ showButtons }) => {
       </section>
       <div className="b3">
         <div className="b3-1">
-          <iframe src="https://vlabs.mirea.ru/mash/" width="100%" height="100%" margin-left="0px" padding-left="0" rel="noopener noreferrer">
+          <iframe src="https://vlabs.mirea.ru/mash/" title="Mash Iframe" className="your-iframe" rel="noopener noreferrer">
           </iframe>
 
         </div>
