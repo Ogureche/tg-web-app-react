@@ -1,12 +1,8 @@
-import React from "react";
-import '../styles/PageTeach.css';
+import React from 'react'
+import '../styles/PageTeach.css'
 
 const PageTeach = () => {
-    return (
-        <div>
+	return <div></div>
+}
 
-        </div>  
-    )
-};
-
-export default PageTeach;
+export default PageTeach

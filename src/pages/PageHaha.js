@@ -1,12 +1,8 @@
-import React from "react";
-import '../styles/PageTeach.css';
+import React from 'react'
+import '../styles/PageTeach.css'
 
 const PageHaha = () => {
-    return (
-        <div>
+	return <div></div>
+}
 
-        </div>
-    )
-};
-
-export default PageHaha;
+export default PageHaha
