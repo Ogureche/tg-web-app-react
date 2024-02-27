@@ -1,93 +1,89 @@
 body {
-    display: block;
-    margin: 0px;
-  }
-  .namegame{
-    font-size: 15px;
-    font-weight: bold;
-  }
-  .info{
-    font-size: 12px;
-  }
-  .main {
-      text-align: center;
-      margin: 0px;
-      width: 100%;
-    }
-    
-    h1 {
-      color: #333;
-    }
-    p {
-        margin: 0; 
-        line-height: 1.2; 
-        font-family: 'Montserrat', sans-serif;
-      }
-      
-      span {
-        display: inline-block; /* Устанавливаем блочный тип для span, чтобы можно было управлять отступами */
-        margin-right: 5px; /* Пример отступа между span'ами */
-      }
-    .d1{
-        height: 65px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center; 
-        align-items: center;
-        background-color:#FAD666 ;
-        color:#ffffff;
+	display: block;
+	margin: 0px;
+}
+.namegame {
+	font-size: 15px;
+	font-weight: bold;
+}
+.info {
+	font-size: 12px;
+}
+.main {
+	text-align: center;
+	margin: 0px;
+	width: 100%;
+}
 
-    }
-    .d2{
-        height: 130px;
-        padding-top: 5%;
-        background-color: #ffffff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        flex-wrap: wrap;
-        
-    }
-    .d2-A{
-        height: 130px;;
-        padding-top: 5%;
-        background-color: #ffffff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        flex-wrap: wrap;
-        
-    }
-    .d2-1{
-        padding-right: 10px;
-        padding-left: 10px;
-        width: 40%;
-        height: 140px;
-        background-color: #FAD666;
-        color:#ffffff;
-        margin-right: 4%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center; 
-        align-items: center;
-        border-radius: 15px; 
-    }
-    .d2-2{ 
-        padding-right: 10px;
-        padding-left: 10px;
-        width: 40%;
-        height: 140px;
-        background-color: #FAD666;
-        color:#ffffff;
-        margin-right: 4%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center; 
-        align-items: center;
-        border-radius: 15px;
-        margin-right: 0%; 
+h1 {
+	color: #333;
+}
+p {
+	margin: 0;
+	line-height: 1.2;
+	font-family: 'Montserrat', sans-serif;
+}
 
-    }
+span {
+	display: inline-block;
+	margin-right: 5px;
+}
+.d1 {
+	height: 65px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fad666;
+	color: #ffffff;
+}
+.d2 {
+	height: 130px;
+	padding-top: 5%;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	flex-wrap: wrap;
+}
+.d2-A {
+	height: 130px;
+	padding-top: 5%;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	flex-wrap: wrap;
+}
+.d2-1 {
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 40%;
+	height: 140px;
+	background-color: #fad666;
+	color: #ffffff;
+	margin-right: 4%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+}
+.d2-2 {
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 40%;
+	height: 140px;
+	background-color: #fad666;
+	color: #ffffff;
+	margin-right: 4%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	margin-right: 0%;
+}

@@ -1,0 +1,39 @@
+body {
+	display: block;
+	margin: 0px;
+}
+p {
+	color: white;
+}
+
+.Admin {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.header {
+	height: 65px;
+	width: 100%;
+	background-color: #fad666;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5%;
+}
+
+.text {
+}
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fad666;
+	height: 150px;
+	border-radius: 15px;
+	width: 70%;
+}
