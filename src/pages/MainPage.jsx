@@ -50,7 +50,7 @@ const MainPage = ({ showButtons }) => {
 						width='100%'
 						height='100%'
 						margin-left='0px'
-						padding-left='0'
+						padding-left='0px'
 						rel='noopener noreferrer'
 					></iframe>
 				</div>
