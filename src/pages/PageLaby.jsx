@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../styles/PageI.css'
+import s from '../styles/PageI.module.css'
 const PageLaby = () => {
-	return <div className='main'></div>
+	return <div className={s.main}></div>
 }
 
 export default PageLaby

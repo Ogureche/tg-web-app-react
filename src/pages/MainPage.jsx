@@ -1,43 +1,50 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../styles/PageI.css'
+import s from '../styles/PageI.module.css'
 
 const MainPage = ({ showButtons }) => {
 	return (
-		<div className='main'>
-			<div className='a1'>
-				<img src='./image/iptip.svg' className='a2' />
+		<div className={s.main}>
+			<div className={s.a1}>
+				<img src='./image/iptip.svg' className={s.a2} />
 			</div>
-			<section className='b'>
-				<div className='b1'>
-					<div className='b1-1'>
+			<section className={s.b}>
+				<div className={s.b1}>
+					<div className={s.b1_1}>
 						<Link to='/PageTeach'>
 							<button>
-								<p className='text-button'>Преподаватели </p>{' '}
+								<p className={s.text_button}>Преподаватели </p>
 							</button>
 						</Link>
 					</div>
-					<div className='b1-2'>
+					<div className={s.b1_2}>
 						<Link to='/LearnPath'>
-							<button className='text-button'>Траектория обучения</button>
+							<button>
+								<p className={s.text_button}>Траектория обучения</p>
+							</button>
 						</Link>
 					</div>
 				</div>
-				<div className='b2'>
-					<div className='b2-1'>
+				<div className={s.b2}>
+					<div className={s.b2_1}>
 						<Link to='/PageHaha'>
-							<button className='text-button'>Хакатоны </button>
+							<button>
+								<p className={s.text_button}>Хакатоны </p>
+							</button>
 						</Link>
 					</div>
-					<div className='b2-2'>
+					<div className={s.b2_2}>
 						<Link to='/PageCyber'>
-							<button className='text-button'>Киберспорт</button>
+							<button>
+								{' '}
+								<p className={s.text_button}>Киберспорт</p>{' '}
+							</button>
 						</Link>
 					</div>
 				</div>
 			</section>
-			<div className='b3'>
-				<div className='b3-1'>
+			<div className={s.b3}>
+				<div className={s.b3_1}>
 					<iframe
 						src='https://vlabs.mirea.ru/mash/'
 						width='100%'

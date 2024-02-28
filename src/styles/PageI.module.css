@@ -1,0 +1,159 @@
+body {
+	display: block;
+	margin: 0;
+}
+.main {
+	text-align: center;
+	margin: 0px;
+	width: 100%;
+}
+
+h1 {
+	color: #333;
+}
+
+button {
+	font-weight: bold;
+	margin: 5px;
+	padding: 10px;
+	background-color: #fad666;
+	color: white;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+	background-color: #fad666;
+}
+.a0 {
+	height: 45px;
+	width: 100%;
+	background-color: #313131;
+}
+.a0-1 {
+	color: #ffffff;
+	font-size: 24px;
+
+	padding-top: 10px;
+	text-align: left;
+	padding-left: 30px;
+}
+.a0-2 {
+	width: 1000%;
+}
+.a1 {
+	width: 100%;
+}
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+.b1 {
+	height: 124px;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0%;
+	flex-wrap: wrap;
+}
+.text-button {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+.b1_1 {
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 37%;
+	height: 85px;
+	background-color: #fad666;
+	color: #ffffff;
+	margin-right: 4%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+}
+.b1_2 {
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 37%;
+	height: 85px;
+	background-color: #fad666;
+	color: #ffffff;
+	margin-left: 4%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+}
+.b2 {
+	height: 100px;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0%;
+	flex-wrap: wrap;
+}
+.b2_1 {
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 37%;
+	height: 85px;
+	background-color: #fad666;
+	color: #ffffff;
+	margin-right: 4%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+}
+.b2_2 {
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 37%;
+	height: 85px;
+	background-color: #fad666;
+	color: #ffffff;
+	margin-left: 4%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+}
+
+.b3_1 {
+	width: 100%;
+	height: 100%;
+	transform: scale(0.9);
+	display: inline-block;
+	padding-right: 0%;
+	margin-left: 0px;
+}
+.b3 {
+	height: 700px;
+	width: 100%;
+}
+.your-iframe {
+	border: none;
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+}
