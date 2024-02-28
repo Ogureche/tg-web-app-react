@@ -2,6 +2,10 @@ body {
 	display: block;
 	margin: 0px;
 }
+.main_text {
+	font-size: 24px;
+	font-weight: bold;
+}
 .namegame {
 	font-size: 15px;
 	font-weight: bold;
