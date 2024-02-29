@@ -20,7 +20,7 @@ const LearnPath = () => {
 				</div>
 				<div className={s.c2A}>
 					<div className={s.c2_3}>
-						<p class={s.Code}>09.03.02 Компьютерный дизайн</p>
+						<p class={s.Code}>09.03. 02 Компьютерный дизайн</p>
 					</div>
 					<div className={s.c2_4}>
 						<p class={s.Code}>11.03.04 Электроника и наноэлектроника</p>
