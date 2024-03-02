@@ -7,7 +7,7 @@ import LearnPath from './pages/LearnPath'
 import PageCyber from './pages/PageCyber'
 import PageLaby from './pages/PageLaby'
 import PageTeach from './components/Teachers/PageTeach'
-import PageHaha from './pages/PageHaha'
+import PageHaha from './components/Hacatons/PageHaha'
 
 function App() {
 	const { tg } = useTelegram()

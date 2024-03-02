@@ -5,6 +5,7 @@ body {
 .main {
 	text-align: center;
 	margin: 0px;
+	overflow: hidden;
 	width: 100%;
 }
 
