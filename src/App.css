@@ -3,6 +3,7 @@ body {
 	color: var(--tg-theme-text-color);
 	display: block;
 	margin: 0px;
+	overflow: hidden;
 }
 
 * {
