@@ -19,6 +19,7 @@ p {
 	align-items: center;
 	margin-bottom: 5%;
 	overflow: hidden;
+	
 }
 
 .header {
@@ -46,6 +47,7 @@ p {
 	border-radius: 15px;
 	width: 300px;
 	padding: 5% 2%;
+	margin-bottom: 5%;
 }
 .information {
 	display: flex;
