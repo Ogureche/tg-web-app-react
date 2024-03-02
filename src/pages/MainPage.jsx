@@ -6,7 +6,11 @@ const MainPage = ({ showButtons }) => {
 	return (
 		<div className={s.main}>
 			<div className={s.a1}>
-				<img src='./image/iptip.svg' className={s.a2} />
+				<img
+					src={require('./image/iptip.svg').default}
+					className={s.a2}
+					alt=''
+				/>
 			</div>
 			<section className={s.b}>
 				<div className={s.b1}>
@@ -36,8 +40,7 @@ const MainPage = ({ showButtons }) => {
 					<div className={s.b2_2}>
 						<Link to='/PageCyber'>
 							<button>
-								{' '}
-								<p className={s.text_button}>Киберспорт</p>{' '}
+								<p className={s.text_button}>Киберспорт</p>
 							</button>
 						</Link>
 					</div>
@@ -49,8 +52,8 @@ const MainPage = ({ showButtons }) => {
 						src='https://vlabs.mirea.ru/mash/'
 						width='100%'
 						height='100%'
-						margin-left='0px'
-						padding-left='0px'
+						style={{ marginLeft: '0px', paddingLeft: '0px' }}
+						title='Mirea Mash'
 						rel='noopener noreferrer'
 					></iframe>
 				</div>
