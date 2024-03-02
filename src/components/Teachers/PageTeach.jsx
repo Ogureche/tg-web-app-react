@@ -181,8 +181,6 @@ const PageTeach = () => {
 					name='Блеко Витольд Владиславович'
 					description='Доцент'
 				/>
-
-
 			</div>
 		</div>
 	)
