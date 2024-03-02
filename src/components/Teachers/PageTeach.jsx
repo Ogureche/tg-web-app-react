@@ -12,8 +12,14 @@ const PageTeach = () => {
 				</div>
 				<Admin
 					name='Пушкин Павел Юрьевич'
-					position='Директор'
+					position='Директор Института'
 					description='Кандидат технических наук, доцент'
+				/>
+				<Admin
+					name='Боровик Татьяна Николаевна'
+					position='Заместитель директора по учебно-методической работе
+					'
+					
 				/>
 			</div>
 			<div className={s.Admin}>
@@ -27,7 +33,9 @@ const PageTeach = () => {
 					name='Макиевский Станислав Евгеньевич'
 					description='Преподаватель МИРЭА  и fullstack-разработчик'
 				/>
+				
 			</div>
+			
 		</div>
 	)
 }
