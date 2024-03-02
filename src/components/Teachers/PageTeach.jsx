@@ -115,7 +115,7 @@ const PageTeach = () => {
 				/>
 
 				<div className={s.sub}>
-					<Subject subject='Кафедра Индустриального программирования' />
+					<Subject subject='Кафедра оптико-электронных приборов и систем' />
 				</div>
 
 				<Teach
