@@ -17,8 +17,7 @@ const PageTeach = () => {
 				/>
 				<Admin
 					name='Боровик Татьяна Николаевна'
-					position='Заместитель директора по учебно-методической работе
-					'
+					position='Заместитель директора по учебно-методической работе'
 					
 				/>
 				<Admin
@@ -41,8 +40,6 @@ const PageTeach = () => {
 					position='Заместитель директора по научной работе'
 					description='Кандидат технических наук, доцент'
 				/>
-				
-				
 			</div>
 			<div className={s.Admin}>
 				<div className={s.header}>
@@ -175,8 +172,6 @@ const PageTeach = () => {
 					name='Блеко Витольд Владиславович'
 					description='Доцент'
 				/>
-
-
 			</div>
 		</div>
 	)
