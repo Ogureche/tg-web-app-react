@@ -1,11 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {
-	Route,
-	BrowserRouter as Router,
-	Routes,
-	useLocation,
-	Navigate,
-} from 'react-router-dom'
+import { Route, Routes, Navigate } from 'react-router-dom'
 import { useTelegram } from './hooks/useTelegram'
 import Header from './components/Header/Header'
 import MainPage from './pages/MainPage'
@@ -16,9 +10,8 @@ import PageTeach from './components/Teachers/PageTeach'
 import PageHaha from './pages/PageHaha'
 
 function App() {
-	const { onToggleButton, tg } = useTelegram()
-	const location = useLocation()
-	const [showButtons, setShowButtons] = useState(true)
+	const { tg } = useTelegram()
+	const [showButtons] = useState(true)
 
 	useEffect(() => {
 		tg.ready()
