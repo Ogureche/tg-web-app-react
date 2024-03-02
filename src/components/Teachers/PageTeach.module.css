@@ -1,7 +1,7 @@
 body {
 	display: block;
 	margin: 0px;
-	overflow: hidden;
+
 	background-color: #ffffff;
 }
 p {
@@ -16,6 +16,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 5%;
+	overflow: hidden;
 }
 
 .header {
