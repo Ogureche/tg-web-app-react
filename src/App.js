@@ -12,13 +12,10 @@ import PageHaha from './components/Hacatons/PageHaha'
 function App() {
 	const { tg } = useTelegram()
 	const [showButtons] = useState(true)
-	const data = JSON.stringify({ is_visible: true })
 
-	window.TelegramWebviewProxy.postEvent('web_app_setup_back_button', data)
 	useEffect(() => {
 		tg.ready()
 	})
-
 	return (
 		<div className='App'>
 			<Header />
