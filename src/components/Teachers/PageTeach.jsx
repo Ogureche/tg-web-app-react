@@ -42,13 +42,7 @@ const PageTeach = () => {
 					description='Кандидат технических наук, доцент'
 				/>
 				
-				<div className={s.red}>
-					<Admin
-						name='Пушкин Павел Юрьевич'
-						position='Директор'
-						description='Кандидат технических наук, доцент'
-					/>
-				</div>
+				
 			</div>
 			<div className={s.Admin}>
 				<div className={s.header}>
