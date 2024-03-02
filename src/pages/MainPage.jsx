@@ -6,11 +6,7 @@ const MainPage = ({ showButtons }) => {
 	return (
 		<div className={s.main}>
 			<div className={s.a1}>
-				<img
-					src={require('./image/iptip.svg').default}
-					className={s.a2}
-					alt=''
-				/>
+				<img src='./image/iptip.svg' className={s.a2} alt='' />
 			</div>
 			<section className={s.b}>
 				<div className={s.b1}>
