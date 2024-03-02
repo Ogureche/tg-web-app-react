@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import s from '../styles/PageCyber.module.css'
 
 const PageCyber = () => {
