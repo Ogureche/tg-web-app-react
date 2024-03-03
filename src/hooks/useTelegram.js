@@ -5,21 +5,10 @@ export function useTelegram() {
 	BackButton.show()
 	BackButton.onClick(function () {
 		BackButton.hide()
+		window.history.back()
 	})
-
-	const onToggleButton = () => {
-		if (tg.MainButton.isVisible) {
-			tg.MainButton.hide()
-		} else {
-			tg.MainButton.show()
-		}
-	}
 
 	return {
 		BackButton,
-
-		onToggleButton,
-		tg,
-		user: tg.initDataUnsafe?.user,
 	}
 }
