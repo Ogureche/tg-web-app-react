@@ -1,5 +1,5 @@
 import { Route, Routes, Navigate } from 'react-router-dom'
-import useTelegram from './hooks/useTelegram'
+
 import MainPage from './pages/MainPage'
 import LearnPath from './pages/LearnPath'
 import PageCyber from './components/Cybersport/PageCyber'
@@ -8,7 +8,6 @@ import PageTeach from './components/Teachers/PageTeach'
 import PageHaha from './components/Hacatons/PageHaha'
 
 function App() {
-	useTelegram()
 	return (
 		<div className='App'>
 			<Routes>
