@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from 'react'
 import { Route, Routes, Navigate } from 'react-router-dom'
-import { useTelegram } from './hooks/useTelegram'
-import Header from './components/Header/Header'
+import useTelegram from './hooks/useTelegram'
 import MainPage from './pages/MainPage'
 import LearnPath from './pages/LearnPath'
 import PageCyber from './components/Cybersport/PageCyber'
@@ -10,23 +8,12 @@ import PageTeach from './components/Teachers/PageTeach'
 import PageHaha from './components/Hacatons/PageHaha'
 
 function App() {
-	const { tg } = useTelegram()
-	const [showButtons] = useState(true)
-
-	useEffect(() => {
-		tg.ready()
-	})
-
+	useTelegram()
 	return (
 		<div className='App'>
-			<Header />
-
 			<Routes>
 				<Route path='/' element={<Navigate to='/MainPage' />} />
-				<Route
-					path='/MainPage'
-					element={<MainPage showButtons={showButtons} />}
-				/>
+				<Route path='/MainPage' element={<MainPage />} />
 				<Route path='/PageTeach' element={<PageTeach />} />
 				<Route path='/LearnPath' element={<LearnPath />} />
 				<Route path='/PageHaha' element={<PageHaha />} />
