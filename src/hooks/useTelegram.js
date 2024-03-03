@@ -1,10 +1,6 @@
 const tg = window.Telegram.WebApp
 
 export function useTelegram() {
-	const onClose = () => {
-		tg.close()
-	}
-
 	var BackButton = tg.BackButton
 	BackButton.show()
 	BackButton.onClick(function () {
@@ -21,7 +17,7 @@ export function useTelegram() {
 
 	return {
 		BackButton,
-		onClose,
+
 		onToggleButton,
 		tg,
 		user: tg.initDataUnsafe?.user,
