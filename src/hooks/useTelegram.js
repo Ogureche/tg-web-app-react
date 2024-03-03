@@ -1,15 +1,15 @@
 const tg = window.Telegram.WebApp
 
-var BackButton = tg.BackButton
-BackButton.show()
-BackButton.onClick(function () {
-	BackButton.hide()
-})
-
 export function useTelegram() {
 	const onClose = () => {
 		tg.close()
 	}
+
+	var BackButton = tg.BackButton
+	BackButton.show()
+	BackButton.onClick(function () {
+		BackButton.hide()
+	})
 
 	const onToggleButton = () => {
 		if (tg.MainButton.isVisible) {
@@ -20,6 +20,7 @@ export function useTelegram() {
 	}
 
 	return {
+		BackButton,
 		onClose,
 		onToggleButton,
 		tg,

@@ -3,6 +3,7 @@ import s from './PageTeach.module.css'
 import Admin from './TeacherInfoBlock/Admin'
 import Subject from './TeacherInfoBlock/Subject'
 import Teach from './TeacherInfoBlock/Teach'
+
 const PageTeach = () => {
 	return (
 		<div>
@@ -18,7 +19,6 @@ const PageTeach = () => {
 				<Admin
 					name='Боровик Татьяна Николаевна'
 					position='Заместитель директора по учебно-методической работе'
-					
 				/>
 				<Admin
 					name='Останина Ольга Ивановна'
@@ -28,7 +28,6 @@ const PageTeach = () => {
 				<Admin
 					name='Головченко Дарья Андреевна'
 					position='Заместитель директора по профориентационной работе'
-					
 				/>
 				<Admin
 					name='Конышев Михаил Юрьевич'
@@ -94,25 +93,13 @@ const PageTeach = () => {
 					description='Доцент, кандидат технических Наук'
 				/>
 
-				<Teach
-					name='Астафьев Рустам Уралович'
-					description='Преподаватель'
-				/>
+				<Teach name='Астафьев Рустам Уралович' description='Преподаватель' />
 
-				<Teach
-					name='Кузьмин Глеб Николаевич'
-					description='Преподаватель'
-				/>
+				<Teach name='Кузьмин Глеб Николаевич' description='Преподаватель' />
 
-				<Teach
-					name='Гиматдинов Дамир Маратович'
-					description='Ассистент'
-				/>
+				<Teach name='Гиматдинов Дамир Маратович' description='Ассистент' />
 
-				<Teach
-					name='Макиевский Станислав Евгеньевич'
-					description='Ассистент'
-				/>
+				<Teach name='Макиевский Станислав Евгеньевич' description='Ассистент' />
 
 				<div className={s.sub}>
 					<Subject subject='Кафедра оптико-электронных приборов и систем' />
@@ -123,55 +110,25 @@ const PageTeach = () => {
 					description='Заведующий кафедрой'
 				/>
 
-				<Teach
-					name='Шишаков Константин Валентинович'
-					description='Профессор'
-				/>
+				<Teach name='Шишаков Константин Валентинович' description='Профессор' />
 
-				<Teach
-					name='Белкин Михаил Евсеевич'
-					description='Профессор'
-				/>
+				<Teach name='Белкин Михаил Евсеевич' description='Профессор' />
 
-				<Teach
-					name='Бузылев Федор Николаевич'
-					description='Доцент'
-				/>
+				<Teach name='Бузылев Федор Николаевич' description='Доцент' />
 
-				<Teach
-					name='Величко Александр Павлович'
-					description='Доцент'
-				/>
+				<Teach name='Величко Александр Павлович' description='Доцент' />
 
-				<Teach
-					name='Карпов Максим Александрович'
-					description='Доцент'
-				/>
+				<Teach name='Карпов Максим Александрович' description='Доцент' />
 
-				<Teach
-					name='Кретушев Александр Викторович'
-					description='Доцент'
-				/>
-				
-				<Teach
-					name='Кузнецов Владимир Викторович'
-					description='Доцент'
-				/>
+				<Teach name='Кретушев Александр Викторович' description='Доцент' />
 
-				<Teach
-					name='Умнов Владимир Олегович'
-					description='Доцент'
-				/>
+				<Teach name='Кузнецов Владимир Викторович' description='Доцент' />
 
-				<Teach
-					name='Шестакова Анастасия Павловна'
-					description='Доцент'
-				/>
+				<Teach name='Умнов Владимир Олегович' description='Доцент' />
 
-				<Teach
-					name='Блеко Витольд Владиславович'
-					description='Доцент'
-				/>
+				<Teach name='Шестакова Анастасия Павловна' description='Доцент' />
+
+				<Teach name='Блеко Витольд Владиславович' description='Доцент' />
 			</div>
 		</div>
 	)
