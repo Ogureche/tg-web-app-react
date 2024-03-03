@@ -3,8 +3,10 @@ import s from './PageTeach.module.css'
 import Admin from './TeacherInfoBlock/Admin'
 import Subject from './TeacherInfoBlock/Subject'
 import Teach from './TeacherInfoBlock/Teach'
+import useTelegram from '../../hooks/useTelegram'
 
 const PageTeach = () => {
+	useTelegram()
 	return (
 		<div>
 			<div className={s.Admin}>
