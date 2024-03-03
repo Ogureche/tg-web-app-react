@@ -3,9 +3,9 @@ const tg = window.Telegram.WebApp
 var BackButton = tg.BackButton
 BackButton.show()
 BackButton.onClick(function () {
-	tg.showAlert('Нет пути назад!')
 	BackButton.hide()
 })
+
 export function useTelegram() {
 	const onClose = () => {
 		tg.close()
