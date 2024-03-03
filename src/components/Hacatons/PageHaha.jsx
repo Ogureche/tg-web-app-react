@@ -1,7 +1,9 @@
 import React from 'react'
 import s from './PageHaha.module.css'
 import Hacaton from './Hacaton/Hacaton'
+import useTelegram from '../../hooks/useTelegram'
 const PageHaha = props => {
+	useTelegram()
 	return (
 		<div className={s.main}>
 			<div className={s.header}>

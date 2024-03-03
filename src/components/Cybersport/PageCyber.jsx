@@ -1,10 +1,12 @@
 import React from 'react'
 import s from './PageCyber.module.css'
 import Competitions from './CyberInfoBlock/Competitions'
+import useTelegram from '../../hooks/useTelegram'
 const PageCyber = () => {
+	useTelegram()
 	return (
-        <div>
-            <div className={s.Competitions}>
+		<div>
+			<div className={s.Competitions}>
 				<div className={s.header}>
 					<p className={s.text}>Киберспорт</p>
 				</div>

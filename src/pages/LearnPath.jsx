@@ -1,7 +1,8 @@
 import React from 'react'
 import s from '../styles/Page.module.css'
-
+import useTelegram from '../hooks/useTelegram'
 const LearnPath = () => {
+	useTelegram()
 	return (
 		<div className={s.main}>
 			<div className={s.c1}>
