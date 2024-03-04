@@ -13,7 +13,7 @@ p {
 .Competitions {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Изменил на space-around для равномерного распределения пространства между блоками */
+    justify-content: center;
     align-items: flex-start;
     margin-bottom: 5%;
 }
@@ -36,12 +36,11 @@ p {
 }
 
 .info {
-    flex-basis: calc(50% - 4%);
     margin-bottom: 5%;
     padding-right: 10px;
     padding-left: 10px;
-    width: 40%;
-    height: 200px;
+    width: 70%;
+    height: 140px;
     background-color: #fad666;
     color: #ffffff;
     margin-right: 4%;
@@ -55,20 +54,21 @@ p {
 .name {
     font-size: 15px;
     font-weight: 700;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .registration {
     font-size: 12px;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .datestart {
     font-size: 12px;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .mainjudge {
     font-size: 12px;
-    padding-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
