@@ -5,7 +5,9 @@ body {
 	background-color: #ffffff;
 }
 p {
+    margin: 0;
 	color: white;
+    line-height: 1.2;
 }
 
 .Competitions {
@@ -13,7 +15,7 @@ p {
 	height: auto;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 5%;
 	overflow: hidden;
@@ -28,7 +30,7 @@ p {
     height: 65px;
     justify-content: center;
     width: 100%;
-    padding-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 .text {
@@ -53,14 +55,21 @@ p {
 .name {
     font-size: 15px;
     font-weight: 700;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .registration {
     font-size: 12px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .datestart {
     font-size: 12px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .mainjudge {
     font-size: 12px;
+    padding-top: 5%;
 }
 
