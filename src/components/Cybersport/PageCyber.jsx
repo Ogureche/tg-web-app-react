@@ -30,7 +30,7 @@ const PageCyber = () => {
 							name='League of Legends:'
 							registration='Регистрация: 05.02-04.04'
 							datestart='Дата начала турнира: 05.04'
-							mainjudge='Главный судья: АМаксим "qqOsir1s" Окороков'
+							mainjudge='Главный судья: Максим "qqOsir1s" Окороков'
 						/>
 					
 					

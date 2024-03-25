@@ -16,6 +16,11 @@ const Competitions = props => {
                     <div className={s.mainjudge}>
 						<p>{props.mainjudge}</p>
 					</div>
+					<div className={s.link}>
+				<a href={props.link} target='_blank' rel='noopener noreferrer'>
+					<button className={s.button}>Зарегистрироваться</button>
+				</a>
+			</div>
 			</div>
 		</div>
 	)
