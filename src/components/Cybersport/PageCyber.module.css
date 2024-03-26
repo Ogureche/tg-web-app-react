@@ -43,7 +43,7 @@ p {
 	background-color: #fad666;
 	height: 150px;
 	border-radius: 15px;
-	width: 95%;
+	width: 300px;
 	padding: 5% 2%;
 	margin-bottom: 5%;
     }
@@ -77,3 +77,5 @@ p {
 	font-weight: bold;
 	font-size: 10px;
 }
+
+
