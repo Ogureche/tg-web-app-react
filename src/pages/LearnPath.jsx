@@ -21,7 +21,7 @@ const LearnPath = () => {
 				</div>
 				<div className={s.c2A}>
 					<div className={s.c2_3}>
-						<p className={s.Code}>09.03.hjkg 02 Компьютерный дизайн</p>
+						<p className={s.Code}>09.03.02 Компьютерный дизайн</p>
 					</div>
 					<div className={s.c2_4}>
 						<p className={s.Code}>11.03.04 Электроника и наноэлектроника</p>

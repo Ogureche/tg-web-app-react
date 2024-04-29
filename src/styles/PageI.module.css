@@ -17,7 +17,7 @@ button {
 	font-weight: bold;
 	margin: 5px;
 	padding: 10px;
-	background-color: #fad666;
+	background-color: #ffffff;
 	color: white;
 	border: none;
 	text-align: center;
@@ -30,15 +30,15 @@ button {
 }
 
 button:hover {
-	background-color: #fad666;
+	background-color: #ffffff;
 }
 .a0 {
 	height: 45px;
 	width: 100%;
-	background-color: #313131;
+	background-color: #3A3D4B;
 }
 .a0-1 {
-	color: #ffffff;
+	color: #3A3D4B;
 	font-size: 24px;
 
 	padding-top: 10px;
@@ -49,10 +49,11 @@ button:hover {
 	width: 1000%;
 }
 .a1 {
+	background-color: #3A3D4B;
 	width: 100%;
 }
 img {
-	width: 100%;
+	width: 50%;
 	height: auto;
 	display: block;
 	margin: 0;
@@ -63,7 +64,7 @@ img {
 }
 .b1 {
 	height: 124px;
-	background-color: #ffffff;
+	background-color:#3A3D4B;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -71,16 +72,18 @@ img {
 	flex-wrap: wrap;
 }
 .text-button {
+	color: black;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
+	
 }
 .b1_1 {
 	padding-right: 10px;
 	padding-left: 10px;
 	width: 37%;
 	height: 85px;
-	background-color: #fad666;
-	color: #ffffff;
+	background-color: #ffffff;
+	color: #3A3D4B;
 	margin-right: 4%;
 	display: flex;
 	flex-direction: column;
@@ -93,7 +96,7 @@ img {
 	padding-left: 10px;
 	width: 37%;
 	height: 85px;
-	background-color: #fad666;
+	background-color: #ffffff;
 	color: #ffffff;
 	margin-left: 4%;
 	display: flex;
@@ -104,7 +107,7 @@ img {
 }
 .b2 {
 	height: 100px;
-	background-color: #ffffff;
+	background-color:#3A3D4B;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -116,7 +119,7 @@ img {
 	padding-left: 10px;
 	width: 37%;
 	height: 85px;
-	background-color: #fad666;
+	background-color: #ffffff;
 	color: #ffffff;
 	margin-right: 4%;
 	display: flex;
@@ -130,7 +133,7 @@ img {
 	padding-left: 10px;
 	width: 37%;
 	height: 85px;
-	background-color: #fad666;
+	background-color: #ffffff;
 	color: #ffffff;
 	margin-left: 4%;
 	display: flex;
@@ -151,6 +154,7 @@ img {
 .b3 {
 	height: 700px;
 	width: 100%;
+	background-color:#3A3D4B;
 }
 .your-iframe {
 	border: none;
