@@ -29,7 +29,7 @@ const MainPage = ({ showButtons }) => {
 					<div className={s.b2_1}>
 						<Link to='/PageHaha'>
 							<button>
-								<p className={s.text_button}>Хакатоны </p>
+								<p className={s.text_button}>Хакатоны</p>
 							</button>
 						</Link>
 					</div>
