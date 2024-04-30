@@ -7,7 +7,7 @@ const PageHaha = props => {
 	return (
 		<div className={s.main}>
 			<div className={s.header}>
-				<p className={s.text}>Актуальное</p>
+				<p className={s.text}>Хакатоны</p>
 			</div>
 			<Hacaton
 				name_text='Московский туристический хакатон 2024'

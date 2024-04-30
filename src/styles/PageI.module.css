@@ -17,7 +17,7 @@ h1 {
 button {
 	font-weight: bold;
 	margin: 5px;
-	padding: 10px;
+	padding: 0px;
 	background-color: #ffffff;
 	color: white;
 	border: none;
@@ -56,9 +56,9 @@ button:hover {
 img {
 	width: 40%;
 	height: auto;
-	display: block;
+	align-items: center;
 	margin: 0;
-	padding: 0;
+	padding: 10%;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -82,7 +82,7 @@ img {
 	padding-right: 10px;
 	padding-left: 10px;
 	width: 37%;
-	height: 85px;
+	height: 50px;
 	background-color: #ffffff;
 	color: #3A3D4B;
 	margin-right: 4%;
@@ -90,13 +90,13 @@ img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border-radius: 15px;
+	border-radius: 30px;
 }
 .b1_2 {
 	padding-right: 10px;
 	padding-left: 10px;
 	width: 37%;
-	height: 85px;
+	height: 50px;
 	background-color: #ffffff;
 	color: #ffffff;
 	margin-left: 4%;
@@ -104,10 +104,10 @@ img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border-radius: 15px;
+	border-radius: 30px;
 }
 .b2 {
-	height: 100px;
+	height: 50px;
 	background-color:#3A3D4B;
 	display: flex;
 	justify-content: center;
@@ -119,7 +119,7 @@ img {
 	padding-right: 10px;
 	padding-left: 10px;
 	width: 37%;
-	height: 85px;
+	height: 50px;
 	background-color: #ffffff;
 	color: #ffffff;
 	margin-right: 4%;
@@ -127,13 +127,13 @@ img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border-radius: 15px;
+	border-radius: 30px;
 }
 .b2_2 {
 	padding-right: 10px;
 	padding-left: 10px;
 	width: 37%;
-	height: 85px;
+	height: 50px;
 	background-color: #ffffff;
 	color: #ffffff;
 	margin-left: 4%;
@@ -141,7 +141,7 @@ img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border-radius: 15px;
+	border-radius: 30px;
 }
 
 .b3_1 {
