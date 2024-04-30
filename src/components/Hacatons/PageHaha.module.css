@@ -1,3 +1,8 @@
+body {
+	display: block;
+	margin: 0px;
+	background-color: #3A3D4B;
+}
 .main {
 	width: 100%;
 	height: auto;
@@ -30,15 +35,15 @@
 .head {
 	padding: 4%;
 	height: 10%;
-	background: linear-gradient(to right,#E8B261, #FFB648, #FFC56D, #FFE791);
+	background: linear-gradient(to bottom, #E8B261, #FFB648, #FFC56D, #FFE791);
 	margin: 0%;
 	border-radius: 15px 15px 0px 0px;
 }
 .description {
-	background-color: white;
+	background-color: #ffffff;
 	height: auto;
 	padding: 4%;
-	font-size: 10px;
+	font-size: 12px;
 }
 .info {
 	margin-bottom: 4%;
@@ -47,7 +52,7 @@
 	font-size: 20px;
 }
 .link {
-	background: linear-gradient(to right,#E8B261, #FFB648, #FFC56D, #FFE791);
+	background: linear-gradient(to top,#E8B261, #FFB648, #FFC56D, #FFE791);
 	border-radius: 0 0 15px 15px;
 	align-items: center;
 	text-align: center;
