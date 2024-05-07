@@ -15,10 +15,12 @@ const Hacaton = props => {
 
 			<div className={s.link}>
 				<a href={props.link} target='_blank' rel='noopener noreferrer'>
-					<button className={s.button}>Создать команду</button>
+					<button className={s.button1}>Создать команду</button>
 				</a>
+				
 			</div>
 		</div>
 	)
 }
 export default Hacaton
+

@@ -52,13 +52,29 @@ body {
 	font-size: 20px;
 }
 .link {
-	background: linear-gradient(to top,#F2994A, #F2C94C);
+	background-color: white;
 	border-radius: 0 0 15px 15px;
 	align-items: center;
+	display: flex;
 	text-align: center;
 	padding: 4%;
 }
-.button {
+.button1 {
+	background-color: black;
+	font-weight: bold;
+	font-size: 10px;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+    border-radius: 11px;
+    font-family: 'Montserrat', sans-serif;
+}
+.button2 {
 	background-color: black;
 	font-weight: bold;
 	font-size: 10px;

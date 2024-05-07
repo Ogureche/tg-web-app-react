@@ -23,7 +23,8 @@ const PageHaha = props => {
 Формат: онлайн/офлайн в г. Москва
 Образ результата: презентация идеи внедрения модуля на сервис и верхнеуровневого концепта работы проекта, отрисованного в графическом редакторе.
  Регистрация до 11 марта;'
-				link='https://business.russpass.ru/projects-events/moscow-travel-hack-hakaton/moscow-travel-hack-2024'
+				link1='https://business.russpass.ru/projects-events/moscow-travel-hack-hakaton/moscow-travel-hack-2024'
+				link2='https://translate.yandex.ru/'
 			/>
 		</div>
 	)
