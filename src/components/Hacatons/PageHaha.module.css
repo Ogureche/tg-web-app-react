@@ -35,7 +35,7 @@ body {
 .head {
 	padding: 4%;
 	height: 10%;
-	background: linear-gradient(to bottom, #E8B261, #FFB648, #FFC56D, #FFE791);
+	background: linear-gradient(to bottom, #F2994A, #F2C94C);
 	margin: 0%;
 	border-radius: 15px 15px 0px 0px;
 }
@@ -52,25 +52,24 @@ body {
 	font-size: 20px;
 }
 .link {
-	background: linear-gradient(to top,#E8B261, #FFB648, #FFC56D, #FFE791);
+	background: linear-gradient(to top,#F2994A, #F2C94C);
 	border-radius: 0 0 15px 15px;
 	align-items: center;
 	text-align: center;
-	padding: 2%;
+	padding: 4%;
 }
 .button {
 	background-color: black;
 	font-weight: bold;
 	font-size: 10px;
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
     color: white;
     border: none;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 13px;
+    display: flex;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 11px;
     font-family: 'Montserrat', sans-serif;
 }

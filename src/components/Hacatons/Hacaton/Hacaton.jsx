@@ -15,7 +15,7 @@ const Hacaton = props => {
 
 			<div className={s.link}>
 				<a href={props.link} target='_blank' rel='noopener noreferrer'>
-					<button className={s.button}>Записаться</button>
+					<button className={s.button}>Создать команду</button>
 				</a>
 			</div>
 		</div>
