@@ -24,12 +24,14 @@ p {
 
 .header {
 	height: 65px;
-	width: 100%;
-	background: linear-gradient(to top,#ffb347, #ffcc33);
+	width: 80%;
+	background-color: #ffffff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 5%;
+	margin-bottom: 9%;
+	margin-top: 10%;
+	border-radius: 30px;
 }
 
 .text {
