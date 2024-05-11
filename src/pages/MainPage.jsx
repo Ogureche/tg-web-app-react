@@ -42,7 +42,7 @@ const MainPage = ({ showButtons }) => {
 					</div>
 				</div>
 			</section>
-			<div className={s.b3}>
+			{/* <div className={s.b3}>
 				<div className={s.b3_1}>
 					<iframe
 						src='https://vlabs.mirea.ru/mash/'
@@ -53,7 +53,7 @@ const MainPage = ({ showButtons }) => {
 						rel='noopener noreferrer'
 					></iframe>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	)
 }

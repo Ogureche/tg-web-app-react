@@ -85,6 +85,9 @@ p {
 .subject {
 	font-size: 12px;
 	padding: 0% 12%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	align-items: center;
 }
 .sub {
 	display: flex;
