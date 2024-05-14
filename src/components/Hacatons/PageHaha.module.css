@@ -1,7 +1,7 @@
 body {
 	display: block;
 	margin: 0px;
-	background-color: #3A3D4B;
+	background-color: #3a3d4b;
 }
 .main {
 	width: 100%;
@@ -27,15 +27,17 @@ body {
 .text {
 	font-size: 24px;
 	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
 }
 .hacaton {
 	width: 70%;
 	text-align: flex-start;
+	font-family: 'Montserrat', sans-serif;
 }
 .head {
 	padding: 4%;
 	height: 10%;
-	background: linear-gradient(to bottom, #F2994A, #F2C94C);
+	background: #f2c94c;
 	margin: 0%;
 	border-radius: 15px 15px 0px 0px;
 }
@@ -44,15 +46,21 @@ body {
 	height: auto;
 	padding: 4%;
 	font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+	border-top: 10px solid #f2c94c;
+	border-right: 10px solid #f2c94c;
+	border-left: 10px solid #f2c94c;
 }
 .info {
 	margin-bottom: 4%;
+	font-family: 'Montserrat', sans-serif;
 }
 .main_text {
 	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
 }
 .link {
-	background-color: white;
+	background-color: #f2c94c;
 	border-radius: 0 0 15px 15px;
 	align-items: center;
 	display: flex;
@@ -60,32 +68,36 @@ body {
 	padding: 4%;
 }
 .button1 {
+	justify-content: center;
+	width: 100%;
 	background-color: black;
 	font-weight: bold;
 	font-size: 10px;
-    margin: 5px;
-    padding: 10px;
-    color: white;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    cursor: pointer;
-    border-radius: 11px;
-    font-family: 'Montserrat', sans-serif;
+	margin: 5px;
+	padding: 10px;
+	color: white;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	cursor: pointer;
+	border-radius: 11px;
+	font-family: 'Montserrat', sans-serif;
 }
 .button2 {
+	justify-content: center;
+	width: 100%;
 	background-color: black;
 	font-weight: bold;
 	font-size: 10px;
-    margin: 5px;
-    padding: 10px;
-    color: white;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    cursor: pointer;
-    border-radius: 11px;
-    font-family: 'Montserrat', sans-serif;
+	margin: 5px;
+	padding: 10px;
+	color: white;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	cursor: pointer;
+	border-radius: 11px;
+	font-family: 'Montserrat', sans-serif;
 }

@@ -12,15 +12,11 @@ const Hacaton = props => {
 				<p className={s.info}>{props.info_text}</p>
 				<p className={s.info}>{props.info_sum}</p>
 			</div>
-
 			<div className={s.link}>
-				<a href={props.link} target='_blank' rel='noopener noreferrer'>
-					<button className={s.button1}>Создать команду</button>
-				</a>
-				
+				<button className={s.button1}>Создать команду</button>
+				<button className={s.button2}>Вступить в команду</button>
 			</div>
 		</div>
 	)
 }
 export default Hacaton
-
