@@ -20,7 +20,7 @@ const Hacaton = props => {
 					</Link>
 				</div>
 				<div className={s.link2}>
-					<Link to='/CreateGroupHacatons'>
+					<Link to='/InviteHacatons'>
 						<button className={s.button2}>Вступить в команду</button>
 					</Link>
 				</div>
