@@ -1,7 +1,7 @@
 body {
 	display: block;
 	margin: 0;
-	background-color: #3A3D4B;
+	background-color: #3a3d4b;
 }
 .main {
 	text-align: center;
@@ -19,7 +19,6 @@ button {
 	margin: 5px;
 	padding: 0px;
 	background-color: #ffffff;
-	color: white;
 	border: none;
 	text-align: center;
 	text-decoration: none;
@@ -36,10 +35,10 @@ button:hover {
 .a0 {
 	height: 45px;
 	width: 100%;
-	background-color: #3A3D4B;
+	background-color: #3a3d4b;
 }
 .a0-1 {
-	color: #3A3D4B;
+	color: #3a3d4b;
 	font-size: 24px;
 
 	padding-top: 10px;
@@ -50,7 +49,7 @@ button:hover {
 	width: 1000%;
 }
 .a1 {
-	background-color: #3A3D4B;
+	background-color: #3a3d4b;
 	width: 100%;
 }
 img {
@@ -65,7 +64,7 @@ img {
 }
 .b1 {
 	height: 124px;
-	background-color:#3A3D4B;
+	background-color: #3a3d4b;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -76,7 +75,6 @@ img {
 	color: black;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	
 }
 .b1_1 {
 	padding-right: 10px;
@@ -84,7 +82,7 @@ img {
 	width: 37%;
 	height: 50px;
 	background-color: #ffffff;
-	color: #3A3D4B;
+	color: #3a3d4b;
 	margin-right: 4%;
 	display: flex;
 	flex-direction: column;
@@ -108,7 +106,7 @@ img {
 }
 .b2 {
 	height: 50px;
-	background-color:#3A3D4B;
+	background-color: #3a3d4b;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -155,7 +153,7 @@ img {
 .b3 {
 	height: 700px;
 	width: 100%;
-	background-color:#3A3D4B;
+	background-color: #3a3d4b;
 }
 .your-iframe {
 	border: none;
@@ -163,4 +161,3 @@ img {
 	height: 100%;
 	max-width: 100%;
 }
-

@@ -2,12 +2,16 @@ import React from 'react'
 import s from './PageHaha.module.css'
 import Hacaton from './Hacaton/Hacaton'
 import useTelegram from '../../hooks/useTelegram'
+import BurgerMenu from './BurgerMenu.jsx' // Импортируйте бургер-меню
 const PageHaha = props => {
 	useTelegram()
 	return (
 		<div className={s.main}>
 			<div className={s.header}>
 				<p className={s.text}>Хакатоны</p>
+				<div className={s.search}>
+					<BurgerMenu />
+				</div>
 			</div>
 			<Hacaton
 				name_text='Московский туристический хакатон 2024'
