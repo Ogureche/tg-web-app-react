@@ -8,6 +8,7 @@ import PageTeach from './components/Teachers/PageTeach'
 import PageHaha from './components/Hacatons/PageHaha'
 import InviteHacatons from './components/Hacatons/InviteHacatons'
 import CreateGroupHacatons from './components/Hacatons/CreateGroupHacaton'
+import Profile from './components/Hacatons/Profile'
 
 function App() {
 	return (
@@ -22,6 +23,7 @@ function App() {
 				<Route path='/PageLaby' element={<PageLaby />} />
 				<Route path='/InviteHacatons' element={<InviteHacatons />} />
 				<Route path='/CreateGroupHacatons' element={<CreateGroupHacatons />} />
+				<Route path='/Profile' element={<Profile />} />
 			</Routes>
 		</div>
 	)

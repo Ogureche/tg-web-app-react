@@ -16,7 +16,7 @@ const BurgerMenu = () => {
 			</button>
 			{isOpen && (
 				<div className={s.menu}>
-					<Link to='/ViewTeam' className={s.menuItem} onClick={toggleMenu}>
+					<Link to='/Profile' className={s.menuItem} onClick={toggleMenu}>
 						Профиль
 					</Link>
 					<Link to='/MyHackathons' className={s.menuItem} onClick={toggleMenu}>
