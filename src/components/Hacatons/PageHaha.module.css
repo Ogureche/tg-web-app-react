@@ -39,10 +39,18 @@ body {
 	width: 100%;
 	padding: 10px;
 	margin: 10px 0;
-	border: 1px solid #f2c94c;
-	border-radius: 5px;
-	box-sizing: border-box;
+	border: none; /* Убираем все границы */
+    border-bottom: 2px solid #e28e2a; 
+    border-radius: 0; 
+    box-sizing: border-box;
+    background-color: transparent; /* Фон делаем прозрачным */
+    color: white; 
+    outline: none; /* Убираем стандартное выделение */
+	font-family: 'Montserrat', sans-serif;
 }
+.input-field::placeholder {
+	color: white; 
+  }
 
 .create-button {
 	background-color: #000000;
