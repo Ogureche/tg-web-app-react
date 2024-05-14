@@ -3,6 +3,59 @@ body {
 	margin: 0px;
 	background-color: #3a3d4b;
 }
+.app {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #3a3d4b;
+}
+
+.modal {
+	background-color: #2e2e2e;
+	border-radius: 10px;
+	overflow: hidden;
+	width: 300px;
+}
+
+.modal-header {
+	background-color: #ffffff;
+	padding: 20px;
+	text-align: center;
+}
+
+.modal-title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.modal-content {
+	padding: 20px;
+	text-align: center;
+}
+
+.input-field {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #f2c94c;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.create-button {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.create-button:hover {
+	background-color: #333333;
+}
 .main {
 	width: 100%;
 	height: auto;

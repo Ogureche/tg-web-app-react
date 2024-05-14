@@ -6,6 +6,8 @@ import PageCyber from './components/Cybersport/PageCyber'
 import PageLaby from './pages/PageLaby'
 import PageTeach from './components/Teachers/PageTeach'
 import PageHaha from './components/Hacatons/PageHaha'
+import InviteHacatons from './components/Hacatons/InviteHacatons'
+import CreateGroupHacatons from './components/Hacatons/CreateGroupHacaton'
 
 function App() {
 	return (
@@ -18,6 +20,8 @@ function App() {
 				<Route path='/PageHaha' element={<PageHaha />} />
 				<Route path='/PageCyber' element={<PageCyber />} />
 				<Route path='/PageLaby' element={<PageLaby />} />
+				<Route path='/InviteHacatons' element={<InviteHacatons />} />
+				<Route path='/CreateGroupHacatons' element={<CreateGroupHacatons />} />
 			</Routes>
 		</div>
 	)

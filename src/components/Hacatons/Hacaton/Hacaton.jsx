@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import s from '../PageHaha.module.css'
 
 const Hacaton = props => {
@@ -13,10 +14,19 @@ const Hacaton = props => {
 				<p className={s.info}>{props.info_sum}</p>
 			</div>
 			<div className={s.link}>
-				<button className={s.button1}>Создать команду</button>
-				<button className={s.button2}>Вступить в команду</button>
+				<div className={s.link1}>
+					<Link to='/CreateGroupHacatons'>
+						<button className={s.button1}>Создать команду</button>
+					</Link>
+				</div>
+				<div className={s.link2}>
+					<Link to='/CreateGroupHacatons'>
+						<button className={s.button2}>Вступить в команду</button>
+					</Link>
+				</div>
 			</div>
 		</div>
 	)
 }
+
 export default Hacaton
