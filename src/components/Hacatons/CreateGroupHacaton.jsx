@@ -6,7 +6,7 @@ function InviteHacatons() {
 		<div className={s.app}>
 			<div className={s.modal}>
 				<div className={s['modal-header']}>
-					<div className={s['modal-title']}>Вступить в команду</div>
+					<div className={s['modal-title']}>Создать команду</div>
 				</div>
 				<div className={s['modal-content']}>
 					<input
