@@ -2,6 +2,8 @@ import React from 'react'
 import s from './PageHaha.module.css'
 
 function InviteHacatons() {
+	const teams = ['Team A', 'Team B', 'Team C', 'Team D'] // Example team names
+
 	return (
 		<div className={s.app}>
 			<div className={s.modal}>
@@ -13,7 +15,13 @@ function InviteHacatons() {
 						type='text'
 						className={s['input-field']}
 						placeholder='Введите название команды'
+						list='team-list'
 					/>
+					<datalist id='team-list'>
+						{teams.map((team, index) => (
+							<option key={index} value={team} />
+						))}
+					</datalist>
 					<button className={s['create-button']}>Создать</button>
 				</div>
 			</div>
