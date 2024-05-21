@@ -87,7 +87,7 @@ body {
 	border-radius: 30px;
 }
 .search {
-	margin-left: 50px;
+	margin-left: 25px;
 }
 .text {
 	font-size: 24px;
@@ -95,7 +95,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 .hacaton {
-	width: 70%;
+	width: 80%;
 	text-align: flex-start;
 	font-family: 'Montserrat', sans-serif;
 }
