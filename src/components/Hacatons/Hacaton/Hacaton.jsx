@@ -1,8 +1,28 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import s from '../PageHaha.module.css'
+import { retrieveLaunchParams } from '@tma.js/sdk';
+import axios from 'axios'
+import { useEffect } from 'react'
 
 const Hacaton = props => {
+	const { initData } = retrieveLaunchParams();
+	useEffect(() => {
+        const encryptData = async () => {
+            const response = await axios.post(
+                "http://78.136.223.194:3001//api/auth/login",
+
+                {
+                    withCredentials: true,
+                    headers: {
+                        "Content-Type": "application/json",
+                        Authorization: `tma ${initData}`,
+                    },
+                }
+            );
+        };
+        encryptData();
+    }, []);
 	return (
 		<div className={s.hacaton}>
 			<div className={s.head}>
