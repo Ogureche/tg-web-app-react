@@ -44,7 +44,7 @@ p {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	align-items: center;
+	
 	background: linear-gradient(to top,#ffb347, #ffcc33);
 	height: 150px;
 	border-radius: 15px;
@@ -55,12 +55,13 @@ p {
 .information {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	justify-content: space-between;
+	
 	background: linear-gradient(to top,#ffb347, #ffcc33);
 	height: 150px;
 	border-radius: 15px;
 	width: 300px;
-	padding: 5% 3%;
+	padding: 5% 2%;
 	margin-bottom: 5%;
 }
 .status {
@@ -82,6 +83,11 @@ p {
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 }
+.email {
+	font-size: 16px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+}
 
 .subject {
 	font-size: 12px;
@@ -94,7 +100,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	background: linear-gradient(to top,#ffb347, #ffcc33);
-	height: 50px;
+	height: 60px;
 	width: 44%;
 	border-radius: 15px;
 	margin-bottom: 3%;

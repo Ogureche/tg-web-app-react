@@ -7,11 +7,13 @@ const Teach = props => {
 				<div className={s.name}>
 					<p>{props.name}</p>
 				</div>
-				<div className={s.description}>
-					<p>{props.description}</p>
-				</div>
-				<div className={s.email}>
-					<p>{props.email}</p>
+				<div className={s.status}>
+					<div className={s.description}>
+						<p>{props.description}</p>
+					</div>
+					<div className={s.email}>
+						<p>{props.email}</p>
+					</div>
 				</div>
 			</div>
 		</div>
