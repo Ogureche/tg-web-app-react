@@ -3,6 +3,8 @@ import s from './PageHaha.module.css'
 import Hacaton from './Hacaton/Hacaton'
 import useTelegram from '../../hooks/useTelegram'
 import BurgerMenu from './BurgerMenu.jsx' // Импортируйте бургер-меню
+import { retrieveLaunchParams } from '@tma.js/sdk';
+
 const PageHaha = props => {
 	useTelegram()
 	return (

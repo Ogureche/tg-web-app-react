@@ -59,8 +59,8 @@ const LearnPath = () => {
 							Нанотехнологии и микросистемная техника
 						</p>
 					</div>
-					<div className={s.img}></div>
-					<div className={s.img}></div>
+					<div className={s.img}><img src='./image/iptip.png' className={s.img1} alt='' /></div>
+					<div className={s.img}><img src='./image/iptip.png' className={s.img2} alt='' /></div>
 					<div className={s.c2_6}>
 						<p className={s.Code}>
 							<span className={s.first_line}>29.03.04 </span>
