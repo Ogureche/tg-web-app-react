@@ -14,32 +14,43 @@ const PageTeach = () => {
 					<p className={s.text}>Администрация</p>
 				</div>
 				<Admin
+					name='Сигов Александр Сергеевич'
+					position='Президент'
+					email='Почта: sigov@mirea.ru'
+				/>
+				<Admin
 					name='Пушкин Павел Юрьевич'
 					position='Директор Института'
 					description='Кандидат технических наук, доцент'
+					email='Почта: pushkin@mirea.ru'
 				/>
 				<Admin
 					name='Боровик Татьяна Николаевна'
 					position='Заместитель директора по учебно-методической работе'
+					email='Почта: borovik@mirea.ru'
 				/>
 				<Admin
 					name='Останина Ольга Ивановна'
 					position='Заместитель директора по общим вопросам'
 					description='Кандидат химических наук'
+					email='Почта: ostanina@mirea.ru'
 				/>
 				<Admin
 					name='Головченко Дарья Андреевна'
 					position='Заместитель директора по профориентационной работе'
+					email='Почта: golovchenko@mirea.ru'
 				/>
 				<Admin
 					name='Конышев Михаил Юрьевич'
 					position='Заместитель директора по стратегическому развитию'
 					description='доктор технических наук, доцент'
+					email='Почта: konyshev@mirea.ru'
 				/>
 				<Admin
 					name='Лежнина Юлия Аркадьевна'
 					position='Заместитель директора по научной работе'
 					description='Кандидат технических наук, доцент'
+					email='Почта: lezhnina@mirea.ru'
 				/>
 			</div>
 			<div className={s.Admin}>

@@ -3,30 +3,30 @@ import s from './PageHaha.module.css'
 import Hacaton from './Hacaton/Hacaton'
 import useTelegram from '../../hooks/useTelegram'
 import BurgerMenu from './BurgerMenu.jsx' // Импортируйте бургер-меню
-import axios from "axios"; 
-import { retrieveLaunchParams } from "@tma.js/sdk"; 
-import { useEffect} from "react";
+// import axios from "axios"; 
+// import { retrieveLaunchParams } from "@tma.js/sdk"; 
+// import { useEffect} from "react";
 
 
 const PageHaha = props => {
 	useTelegram()
-		const { initDataRaw } = retrieveLaunchParams();
-	useEffect(() => {
-        const encryptData = async () => {
-           	await axios.post(
-                "http://78.136.223.194:3001/api/auth/login",
-
-                {
-                    withCredentials: true,
-                    headers: {
-                        "Content-Type": "application/json",
-                        Authorization: `tma ${initDataRaw}`,
-                    },
-                }
-            );
-        };
-        encryptData();
-    }, [initDataRaw]);
+	// 	// const { initDataRaw } = retrieveLaunchParams();
+	// useEffect(() => {
+    //     const encryptData = async () => {
+    //        	await axios.post(
+    //             "http://78.136.223.194:3001/api/auth/login",
+				
+    //             {
+    //                 withCredentials: true,
+    //                 headers: {
+    //                     "Content-Type": "application/json",
+    //                     Authorization: `tma user=%7B%22id%22%3A279058397%2C%22first_name%22%3A%22Vladislav%22%2C%22last_name%22%3A%22Kibenko%22%2C%22username%22%3A%22vdkfrost%22%2C%22language_code%22%3A%22en%22%2C%22is_premium%22%3Atrue%2C%22allows_write_to_pm%22%3Atrue%7D&chat_instance=-3788475317572404878&chat_type=private&auth_date=1709144340&hash=371697738012ebd26a111ace4aff23ee265596cd64026c8c3677956a85ca1827`,
+    //                 },
+    //             }
+    //         );
+    //     };
+    //     encryptData();
+    // }, []);
 	return (
 		<div className={s.main}>
 			<div className={s.header}>
