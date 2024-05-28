@@ -3,10 +3,30 @@ import s from './PageHaha.module.css'
 import Hacaton from './Hacaton/Hacaton'
 import useTelegram from '../../hooks/useTelegram'
 import BurgerMenu from './BurgerMenu.jsx' // Импортируйте бургер-меню
-import { retrieveLaunchParams } from '@tma.js/sdk';
+import axios from "axios"; 
+import { retrieveLaunchParams } from "@tma.js/sdk"; 
+import { useEffect} from "react";
+
 
 const PageHaha = props => {
 	useTelegram()
+		const { initDataRaw } = retrieveLaunchParams();
+	useEffect(() => {
+        const encryptData = async () => {
+           	await axios.post(
+                "http://78.136.223.194:3001/api/auth/login",
+
+                {
+                    withCredentials: true,
+                    headers: {
+                        "Content-Type": "application/json",
+                        Authorization: `tma ${initDataRaw}`,
+                    },
+                }
+            );
+        };
+        encryptData();
+    }, [initDataRaw]);
 	return (
 		<div className={s.main}>
 			<div className={s.header}>
