@@ -64,21 +64,25 @@ const PageTeach = () => {
 				<Teach
 					name='Макиевский Станислав Евгеньевич'
 					description='Преподаватель МИРЭА  и fullstack-разработчик'
+					email='Почта: makievskij@mirea.ru'
 				/>
 
 				<Teach
 					name='Шамин Роман Вячеславович'
 					description='Профессор, доктор физико-математических наук'
+					email='Почта: shamin@mirea.ru'
 				/>
 
 				<Teach
 					name='Грошева Полина Юрьевна'
 					description='Доцент, кандидат экономиче- ских наук'
+					email='Почта: grosheva@mirea.ru'
 				/>
 
 				<Teach
 					name='Евдошенко Олег Игоревич'
 					description='Доцент, кандидат технических Наук'
+					email='Почта: evdoshenko@mirea.ru'
 				/>
 
 				<Teach

@@ -22,9 +22,10 @@
 
 .menuItem {
 	display: block;
-	padding: 10px 20px;
+	padding: 7px 15px;
 	text-decoration: none;
 	color: black;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .menuItem:hover {

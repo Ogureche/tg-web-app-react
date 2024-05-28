@@ -22,7 +22,7 @@ function InviteHacatons() {
 							<option key={index} value={team} />
 						))}
 					</datalist>
-					<button className={s['create-button']}>Создать</button>
+					<button className={s['create-button']}>Вступить</button>
 				</div>
 			</div>
 		</div>
